@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhavana's Portfolio</title>
+    <link rel="stylesheet" href="PORFOLIO.css">
+    <script src="https://kit.fontawesome.com/d732701c49.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav class="nav">
+            <h1 class="logo">Bhavana's Porfolio</h1>
+            <ul class="ul" id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" id="icons" onclick="closeMenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" id="icons" onclick="openmenu()"></i>
+        </nav>
+        <div class="headerText">
+            <p>Frontend Developer</p>
+            <h1>Hi , I'm <span class="span">Bhavana Kandikunta</span></h1>
+        </div>
+    </div>
+   </div>
+<!-----------------------ABOUT-------------------------------->
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="aboutColumn1">
+                <img src="singlepic.png" alt="">
+            </div>
+            <div class="aboutColumn2">
+                <h1 class="subTitle">About me</h1>
+                <p>Hello Everyone , I'm Bhavana Kandikunta.,I'm B.Tech graduate and tech ENthusiastic person,To obtain a creative and challenging position in an organization that gives me an opportunity for self -
+                    improvement and leadership, while contributing to the symbolic growth of the organization with my technical,innovative and logical skills.</p>
+                    <div class="tabTitles">
+                        <p class="tabLinks activeLink"onclick="openTab('skills')">Skills</p>
+                        <p class="tabLinks" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tabContents activeTab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Desinging web/App interface</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>SQL</span><br>To acess and manipulate the data</li>
+                        </ul>
+                    </div>
+                    <div class="tabContents" id="education">
+                        <ul>
+                            <li><span>B.Tech</span><br>2020-2024<br>Percantage:80%</li>
+                            <li><span>Intermediate</span><br>2018-2020<br>Percantage:77%</li>
+                            <li><span>Secondary School</span><br>2018<br>Percantage:97%</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+   </div>
+   <!--------------------------Projects----------------------------------------->
+   <div id="projects">
+    <div class="container">
+        <h1 class="subTitle">Projects</h1> 
+        <div class="servicesList">
+            <div>
+                <i class="fa-solid fa-calculator"></i>
+                <h2>Calculator</h2>
+                <p>Develop a simple calculator web application using HTML, CSS,<br>and JavaScript. The calculator will perform basic arithmetic operations<br>like addition, subtraction, multiplication, and division. The user interface will be designed using HTML and CSS, while JavaScript will handle the logic and calculations. </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-list"></i>
+                <h2>TO-DO List</h2>
+                <p>Create a dynamic To-Do List web application using HTML, CSS, and JavaScript. Users can add, remove, and mark tasks as completed. The application will store tasks locally using JavaScript's localStorage API. The user interface will be designed using HTML and CSS, with JavaScript handling the logic and functionality. The project will demonstrate a basic understanding of front-end development</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-magnifying-glass-chart"></i>
+                <h2>Quizz App</h2>
+                <p>Develop a interactive Quiz App using HTML, CSS, and JavaScript. The app will display questions, options, and track user scores. JavaScript will handle the logic, question navigation, and scoring. HTML and CSS will be used to design the user interface and layout. The project will demonstrate a basic understanding of front-end development</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-book"></i>
+                <h2>Notes App</h2>
+                <p>Create a simple Notes App using HTML, CSS, and JavaScript. Users can create, edit, and delete notes. The app will store notes locally using JavaScript's localStorage API. HTML and CSS will be used to design the user interface and layout. JavaScript will handle the logic and functionality for note management and storage</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-lock"></i>
+                <h2>Random Password Generator</h2>
+                <p>Create a Random Password Generator App using HTML, CSS, and JavaScript. The app generates strong, unique passwords randomly with a mix of characters. JavaScript handles password generation logic and encryption. HTML and CSS design the user interface and layout. The app provides secure, randomly generated passwords with customizable length and complexity</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-gamepad"></i>
+                <h2>Rock Paper Scissor</h2>
+                <p>Create a Rock Paper Scissors game using HTML, CSS, and JavaScript. The app allows users to play against the computer. JavaScript handles game logic and random move generation. HTML and CSS design the user interface and layout. The app provides a fun, interactive gaming experience</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+   </div>
+   <!---------------------------------------CONTACT ME---------------------------------------------------->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subTitle">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>bhavnaaa878@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9347172592</p>
+                <div class="socialIcons">
+                    <a href="https://www.linkedin.com/in/bhavanakandikunta/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/KandikuntaBhavana" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="Bhavana_Resume1.pdf" download target="_blank" class="Btn Btn2">Download CV</a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="button">SUBMIT</button>
+                </form>
+            </div>
+        </div>
+    </div>
+   </div>
+   <div class="copyright">
+    <p>copyright Bhavana Kandikunta.</p>
+   </div>
+</body>
+<script src="p3.js"></script>
+</html>
